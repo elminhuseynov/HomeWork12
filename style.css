@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+ul.participants-list {
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul.participants-list li {
+    padding: 8px 10px;
+    background-color: #f0f8ff;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    color: #333;
+}
+
+ul.participants-list li:nth-child(even) {
+    background-color: #dbeeff;
+}
